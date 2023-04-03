@@ -2,7 +2,6 @@
 import { Link, Outlet } from 'react-router-dom';
 import '../App.css';
 import Header from '../components/header';
-import Secao from '../models/secao';
 import { secoes } from '../models/secoes';
 function Layout() {
     return (

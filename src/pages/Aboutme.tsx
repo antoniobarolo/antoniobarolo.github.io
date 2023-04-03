@@ -1,5 +1,4 @@
 import { Link } from "react-router-dom";
-import Painel from "../components/itemPainel";
 
 const Aboutme = () => {
   return <main className="center">

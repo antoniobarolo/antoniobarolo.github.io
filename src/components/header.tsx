@@ -1,7 +1,5 @@
-import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import Secao from "../models/secao";
-import { secoes } from "../models/secoes";
 
 interface ItemSecaoProps {
 	secao: Secao[];

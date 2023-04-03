@@ -1,6 +1,5 @@
 import ItemSecao from '../components/itemSecao';
 import '../App.css';
-import Header from '../components/header';
 import { secoes } from '../models/secoes';
 function Home() {
 
