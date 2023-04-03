@@ -254,7 +254,7 @@ footer {
     }
 
     .left {
-        background-position: right;
+        background-position: -100px;
     }
 
     .right {

@@ -1,5 +1,5 @@
 
-import { Outlet } from 'react-router-dom';
+import { Link, Outlet } from 'react-router-dom';
 import '../App.css';
 import Header from '../components/header';
 import Secao from '../models/secao';
@@ -15,7 +15,9 @@ function Layout() {
                 <p>
                     Contato: antoniobarolog@gmail.com
                 </p>
-                <p>Linkedin: Antonio Barolo Gargiulo</p>
+
+                <p>Linkedin: <Link to='https://www.linkedin.com/in/antoniobarolo/' target="_blank" rel="noopener noreferrer"> Antonio Barolo Gargiulo </Link></p>
+
             </footer>
         </div>)
 }
