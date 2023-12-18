@@ -5,6 +5,19 @@ import Painel from "../models/painel";
 const Cv = () => {
   const paineis: Painel[] = [{
     titulo: 'Experiência Profissional',
+    subtitulo: 'Tarken (Jun 2023 - presente)',
+    texto: 'Estágio em desenvolvimento web, criando sistemas para a plataforma da empresa, incluindo as seguintes atividades:',
+    ul: [
+      'Back-end em Typescript, APIs REST em Nest;',
+      'Engenharia de Dados em databases Postgres;',
+      'Modelagem de dados em python, da POC até implementação;',
+      'Scripts em python de processamento de dados e automatização de cálculos;',
+      'Manipulação e criação de arquivos, lambdas e Step Functions para o Amazon S3.'
+    ],
+    img: 'tarken.png',
+    link: 'https://www.tarken.com.br/'
+  },
+  {
     subtitulo: 'QSOFT (Jan 2022 - Jan 2023)',
     texto: 'Estágio na área de dados, trabalhei nas áreas de suporte, arquitetura e governança, supply e operações, realizando as seguintes atividades:',
     ul: ['Gerenciamento do ambiente de projetos da empresa;',
@@ -16,7 +29,7 @@ const Cv = () => {
     link: 'http://www.qsoft.com.br/'
   }, {
     titulo: 'Formação Acadêmica',
-    subtitulo: 'Sistemas de Informações ESPM (SP) (2020 - 2023)',
+    subtitulo: 'Sistemas de Informação ESPM (SP) (2020 - 2023)',
     texto: '7o período de Bacharelado, conclusão em Dezembro 2023. Atualmente realizando meu TCC sobre geração procedural de música.',
     img: 'logo-espm.jpg',
     link: 'https://www.espm.br/cursos-de-graduacao/sistemas-de-informacao/'
@@ -24,12 +37,12 @@ const Cv = () => {
   {
     titulo: 'Habilidades',
     subtitulo: 'Programação',
-    ul: ['Javascript, Typescript, HTML e CSS;', 'React, Node, Express, Websockets;', 'Java;', 'C#;', 'Python, Selenium.'],
+    ul: ['Javascript, Typescript, HTML e CSS;', 'React, Node, Nest, Express, Websockets;', 'Java;', 'C#;', 'Python, Selenium.'],
     img: 'js-logo.jpg'
   },
   {
     subtitulo: 'Ciência de Dados',
-    ul: ['SQL e PLSQL;', 'Tableau;', 'RapidMiner;', 'R.'],
+    ul: ['SQL e PLSQL;', 'Postgres', 'Tableau;', 'RapidMiner;', 'R.'],
     img: 'tableau.jpg'
   },
   {

@@ -10,7 +10,7 @@ export const secoes: Secao[] = [
 
   {
     titulo: 'Currículo',
-    texto: '7° semestre de graduação em Sistemas de Informações pela ESPM. Foco em Programação, Ciência de Dados, Design e Marketing.',
+    texto: 'Graduado em Sistemas de Informações pela ESPM. Foco em Programação, Ciência de Dados, Design e Marketing.',
     link: 'cv',
     bgImg: 'tech.png'
   },

@@ -8,7 +8,7 @@ const Aboutme = () => {
 
       <p>Gosto de desafios complexos, que demandem ideias inusitadas e embasamento técnico.
 
-      Meu objetivo é ser um Desenvolvedor Web e de Software e produtor de trilhas sonoras.</p>
+      Sou Desenvolvedor Web e de Software e produtor de trilhas sonoras.</p>
       <p>Espero que você se interesse!</p>
     </section>
     <section className='centerImg'>

@@ -1,8 +1,27 @@
-import ItemPainel from "../components/itemPainel";
 import Painel from "../models/painel";
+import ItemPainel from "../components/itemPainel";
 
 const Projects = () => {
   const paineis: Painel[] = [
+    {
+      titulo: 'Web',
+      subtitulo: 'Procedurally Generated Tunes',
+      texto: 'Meu projeto de TCC, um algoritmo procedural de composição automática de música.',
+      img: 'pgt.jpg',
+      link: 'https://antoniobarolo.github.io/PGT-Procedurally-Generated-Tunes/'
+    },
+    {
+      subtitulo: 'Renewable Energy',
+      texto: 'Aplicação Fullstack que apresenta um gráfico interativo com dados coletados do site ourworldindata com Web-Scraping em Python.',
+      img: 'renewable-energy.jpg',
+      link: 'https://github.com/Tarsila-MS/Renewable_Energy'
+    },
+    {
+      subtitulo: 'Zipparia',
+      texto: 'Web App em React TS com banco de dados em MySQL para simular um sistema administrativo por CRUDs de uma pizzaria temática da Pixar.',
+      img: 'zipparia.jpg',
+      link: 'https://github.com/antoniobarolo/Zipparia-Website'
+    },
     {
       titulo: 'Games',
       subtitulo: 'Sandmann',
@@ -21,19 +40,6 @@ const Projects = () => {
       texto: 'Letmein é um jogo multiplayer que replica as mecânicas do game show "Megasenha", feita em node.js e implementando websockets.',
       img: 'letmein.jpg',
       link: 'https://github.com/antoniobarolo/Letmein-Websocket-Game'
-    },
-    {
-      titulo: 'Web',
-      subtitulo: 'Renewable Energy',
-      texto: 'Aplicação Fullstack que apresenta um gráfico interativo com dados coletados do site ourworldindata com Web-Scraping em Python.',
-      img: 'renewable-energy.jpg',
-      link: 'https://github.com/Tarsila-MS/Renewable_Energy'
-    },
-    {
-      subtitulo: 'Zipparia',
-      texto: 'Web App em React TS com banco de dados em MySQL para simular um sistema administrativo por CRUDs de uma pizzaria temática da Pixar.',
-      img: 'zipparia.jpg',
-      link: 'https://github.com/antoniobarolo/Zipparia-Website'
     },
     {
       titulo: 'Worldbuilding',
