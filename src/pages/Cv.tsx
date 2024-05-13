@@ -1,12 +1,19 @@
+import Painel from "../models/painel";
 import { Link } from "react-router-dom";
 import ItemPainel from "../components/itemPainel";
-import Painel from "../models/painel";
 
 const Cv = () => {
-  const paineis: Painel[] = [{
-    titulo: 'Experiência Profissional',
-    subtitulo: 'Tarken (Jun 2023 - presente)',
-    texto: 'Estágio em desenvolvimento web, criando sistemas para a plataforma da empresa, incluindo as seguintes atividades:',
+  const paineis: Painel[] = [
+    {
+      titulo: 'Experiência Profissional',
+      subtitulo: 'Visagio (Mai 2024 - Presente)',
+      texto: 'Desenvolvedor Tech VII trabalhando na produção de RPAs.',
+      img: 'visagio.png',
+      link: 'https://www.visagio.com'
+    },
+    {
+    subtitulo: 'Tarken (Jun 2023 - Mai 2024)',
+    texto: 'Estágio até 2023, e a partir de 2024 Dev Júnior em desenvolvimento web, criando sistemas para a plataforma da empresa, incluindo as seguintes atividades:',
     ul: [
       'Back-end em Typescript, APIs REST em Nest;',
       'Engenharia de Dados em databases Postgres;',
