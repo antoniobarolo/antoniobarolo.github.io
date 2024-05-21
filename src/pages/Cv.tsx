@@ -7,7 +7,7 @@ const Cv = () => {
     {
       titulo: 'Experiência Profissional',
       subtitulo: 'Visagio (Mai 2024 - Presente)',
-      texto: 'Desenvolvedor Tech VII trabalhando na produção de RPAs.',
+      texto: 'Desenvolvedor iniciando minha experiência com Ruby on Rails.',
       img: 'visagio.png',
       link: 'https://www.visagio.com'
     },
